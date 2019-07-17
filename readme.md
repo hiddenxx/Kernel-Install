@@ -16,6 +16,15 @@ cd gitim | python -m gitim -u
 # Install ATOM Editor : https://flight-manual.atom.io/getting-started/sections/installing-atom/
 # Once the ATOM Editor is installed Change your Theme using Atom package Manager.
 apm install predawn-syntax
-# Install Python Language Support for ATOM IDE from APM.
-# 
+# Install Python language server [python -m pip install 'python-language-server[all]']
+python -m pip install 'python-language-server[all]'
+# Install all the packages required for python programming.
+# Python ide support for Atom
+# File Icon Package
+# Script Package : https://atom.io/packages/script
+apm install script
+apm install atom-file-icons
+apm install ide-python
+apm install atom-ide-ui
+
 
